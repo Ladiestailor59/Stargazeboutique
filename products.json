@@ -1,0 +1,21 @@
+[
+  {"id":1,"name":"Red Bridal Lehenga","category":"Lehengas","price":"1200","image":"images/lehenga1.jpg"},
+  {"id":2,"name":"Blue Party Lehenga","category":"Lehengas","price":"950","image":"images/lehenga2.jpg"},
+  {"id":3,"name":"Green Designer Lehenga","category":"Lehengas","price":"1100","image":"images/lehenga3.jpg"},
+
+  {"id":4,"name":"Silk Saree Pink","category":"Sarees","price":"800","image":"images/saree1.jpg"},
+  {"id":5,"name":"Cotton Saree Yellow","category":"Sarees","price":"500","image":"images/saree2.jpg"},
+  {"id":6,"name":"Designer Saree Blue","category":"Sarees","price":"1000","image":"images/saree3.jpg"},
+
+  {"id":7,"name":"Red Salwar Suit","category":"Salwar / Churidar Suits","price":"700","image":"images/salwar1.jpg"},
+  {"id":8,"name":"Green Churidar Suit","category":"Salwar / Churidar Suits","price":"750","image":"images/salwar2.jpg"},
+  {"id":9,"name":"Blue Salwar Set","category":"Salwar / Churidar Suits","price":"680","image":"images/salwar3.jpg"},
+
+  {"id":10,"name":"Anarkali Dress","category":"Other traditional outfits","price":"900","image":"images/other1.jpg"},
+  {"id":11,"name":"Kurti Set","category":"Other traditional outfits","price":"650","image":"images/other2.jpg"},
+  {"id":12,"name":"Palazzo Suit","category":"Other traditional outfits","price":"700","image":"images/other3.jpg"},
+
+  {"id":13,"name":"Diwali Special Lehenga","category":"Festival / specialty wear","price":"1300","image":"images/festival1.jpg"},
+  {"id":14,"name":"Navratri Ghagra","category":"Festival / specialty wear","price":"1200","image":"images/festival2.jpg"},
+  {"id":15,"name":"Eid Party Dress","category":"Festival / specialty wear","price":"1100","image":"images/festival3.jpg"}
+]
