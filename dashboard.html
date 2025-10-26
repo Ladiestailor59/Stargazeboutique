@@ -1,1 +1,0 @@
-<html><body><h1>Dashboard Placeholder</h1></body></html>
