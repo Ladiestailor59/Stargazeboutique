@@ -1,1 +1,0 @@
-// Main JS + theme switcher JS logic placeholder
