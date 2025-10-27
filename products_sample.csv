@@ -1,0 +1,6 @@
+id,name,category,price,image,description,sizes
+1,Silk Saree - Rose Gold,sarees,7999,images/product-saree1.svg,Pure silk saree with hand-embroidery.,"One Size"
+2,Embroidered Suit - Marigold,suits,4999,images/product-suit1.svg,Designer suit with zardozi work.,"S|M|L"
+3,Comfort Bra - Cotton (Pack),inner,899,images/product-inner1.svg,Comfort-first cotton bras for daily wear.,"S|M|L|XL"
+4,Seamless Panty - Skin Tone,inner,299,images/product-inner2.svg,Invisible, seamless panties for all-day comfort.,"S|M|L|XL"
+5,Shapewear Waist Control,inner,1299,images/product-shape1.svg,Premium waist-control shapewear.,"S|M|L|XL"

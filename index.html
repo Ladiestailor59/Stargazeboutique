@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Stargaze Boutique — Elegant Traditional</title>
+  <meta name="description" content="Stargaze Boutique — Curated sarees, suits, lehengas and innerwear. Lashkaraa-style elegant collections." />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script defer src="js/main.js"></script>
+</head>
+<body class="lashkaraa">
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <img src="images/logo.svg" alt="Stargaze Boutique" class="logo"/>
+        <h1>Stargaze Boutique</h1>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="innerwear.html">Innerwear</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button id="menuToggle" class="menu-toggle">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-slider" data-autoplay="true" data-delay="4500">
+        <div class="slide">
+          <img src="images/hero1.svg" alt="Elegant Sarees" />
+          <div class="slide-caption">
+            <h2>Luxurious Sarees — Handcrafted</h2>
+            <p>Celebrate every occasion with timeless elegance.</p>
+            <a class="btn" href="shop.html">Shop Sarees</a>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="images/hero2.svg" alt="Bridal Lehenga" />
+          <div class="slide-caption">
+            <h2>Bridal & Festive Collection</h2>
+            <p>Exquisite detailing, premium fabrics.</p>
+            <a class="btn" href="shop.html">Explore Collection</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured container">
+      <h2>Featured Collections</h2>
+      <div class="grid">
+        <a class="card" href="shop.html?cat=sarees"><img src="images/collection-saree.svg" alt="Sarees"/><span>Sarees</span></a>
+        <a class="card" href="shop.html?cat=suits"><img src="images/collection-suit.svg" alt="Suits"/><span>Suits & Kurtis</span></a>
+        <a class="card" href="innerwear.html"><img src="images/collection-inner.svg" alt="Innerwear"/><span>Innerwear</span></a>
+        <a class="card" href="shop.html?cat=lehenga"><img src="images/collection-lehenga.svg" alt="Lehengas"/><span>Lehengas</span></a>
+      </div>
+    </section>
+
+    <section class="lookbook container">
+      <h2>Video Lookbook</h2>
+      <p>Short lookbook clips showcasing our craftsmanship.</p>
+      <div class="video-grid">
+        <div class="video-card">
+          <video muted loop playsinline preload="metadata" src="videos/look1.mp4"></video>
+        </div>
+        <div class="video-card">
+          <video muted loop playsinline preload="metadata" src="videos/look2.mp4"></video>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe container">
+      <h3>Join our mailing list</h3>
+      <form id="subscribeForm">
+        <input type="email" name="email" placeholder="Email address" required />
+        <button class="btn">Subscribe & Get 10% OFF</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Stargaze Boutique — Elegant Traditional Collections</p>
+      <p><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+    </div>
+  </footer>
+</body>
+</html>

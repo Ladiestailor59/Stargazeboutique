@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Silk Saree - Rose Gold",
+      "category": "sarees",
+      "price": 7999,
+      "image": "images/product-saree1.svg",
+      "description": "Pure silk saree with hand-embroidery.",
+      "size": [
+        "One Size"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Embroidered Suit - Marigold",
+      "category": "suits",
+      "price": 4999,
+      "image": "images/product-suit1.svg",
+      "description": "Designer suit with zardozi work.",
+      "size": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Comfort Bra - Cotton (Pack)",
+      "category": "inner",
+      "price": 899,
+      "image": "images/product-inner1.svg",
+      "description": "Comfort-first cotton bras for daily wear.",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Seamless Panty - Skin Tone",
+      "category": "inner",
+      "price": 299,
+      "image": "images/product-inner2.svg",
+      "description": "Invisible, seamless panties for all-day comfort.",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Shapewear Waist Control",
+      "category": "inner",
+      "price": 1299,
+      "image": "images/product-shape1.svg",
+      "description": "Premium waist-control shapewear.",
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  ]
+}

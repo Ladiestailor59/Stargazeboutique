@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Product — Stargaze Boutique</title><link rel="stylesheet" href="css/styles.css"/><script defer src="js/main.js"></script></head><body class="lashkaraa">
+  <header class="site-header container"><div class="brand"><img src="images/logo.svg" class="logo"/><h1>Stargaze Boutique</h1></div></header>
+  <main class="container" id="productMain"></main>
+  <footer class="site-footer container"><p>© Stargaze Boutique</p></footer>
+  <script>
+    (async function(){
+      const params = new URLSearchParams(location.search);
+      const id = params.get('id');
+      const res = await fetch('admin/products.json');
+      const data = await res.json();
+      const p = data.products.find(x=>String(x.id)===String(id)) || data.products[0];
+      const main = document.getElementById('productMain');
+      main.innerHTML = `<div class="product-detail"><img src="${p.image}" alt="${p.name}"><div><h2>${p.name}</h2><p class="price">₹${p.price}</p><p>${p.description}</p><label>Size: <select>${p.size.map(s=>'<option>'+s+'</option>').join('')}</select></label><button class="btn" onclick="addToCart(${p.id})">Add to Cart</button></div></div>`;
+    })();
+    function addToCart(id){
+      const cart = JSON.parse(localStorage.getItem('cart')||'[]');
+      cart.push(id); localStorage.setItem('cart', JSON.stringify(cart));
+      alert('Added to cart');
+    }
+  </script>
+</body></html>
