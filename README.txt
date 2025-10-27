@@ -1,1 +1,0 @@
-Unzip and upload files to GitHub Pages or Netlify. Products are sample placeholders.
