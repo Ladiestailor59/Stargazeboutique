@@ -1,1 +1,0 @@
-function renderProducts(){const grid=document.getElementById('productGrid'); if(!grid) return; grid.innerHTML=''; PRODUCTS.forEach(p=>{const d=document.createElement('div'); d.innerHTML=`<h3>${p.title}</h3><p>${p.price}</p>`; grid.appendChild(d);});} document.addEventListener('DOMContentLoaded', renderProducts);
