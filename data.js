@@ -1,1 +1,0 @@
-const PRODUCTS = [ {id:'saree-001',title:'Moss Green Embroidered Saree',category:'Sarees',price:'Rs. 12,500',img:'images/saree1.jpg',desc:'Silk saree with hand embroidery.'} ];
