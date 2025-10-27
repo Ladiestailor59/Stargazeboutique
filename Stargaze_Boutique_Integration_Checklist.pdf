@@ -1,0 +1,16 @@
+%PDF-1.4
+%Checklist PDF
+Stargaze Boutique - Website Integration Checklist (वेबसाइट सेटअप सूची)
+
+1. Folder structure created (css, js, themes, categories, products, images, data)
+2. Category page: categories/ladies-essentials.html
+3. Product pages created
+4. Images placed in images/products/ and QR in images/QR_codes/
+5. WhatsApp placeholders set as WHATSAPP_NUMBER
+6. Themes: gold-white, gold-pink, dark-royal, glass-3d, pastel-3d
+7. Free login (localStorage demo) and My Account page created
+8. Subscription box saves emails (localStorage demo)
+9. Test navigation, WhatsApp links and QR codes
+10. Zip folder name: Stargaze_Boutique_Complete_Pro.zip
+
+%%EOF
