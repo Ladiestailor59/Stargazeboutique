@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Royal Silk Saree</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+<h1>Royal Silk Saree</h1>
+<div id="qrcode"></div>
+<script>
+fetch('../data/customers.json')
+.then(response => response.json())
+.then(customers => {
+    const customer = customers[0]; // Example: first customer
+    const wa_link = `https://wa.me/${customer.phone}?text=Hi ${encodeURIComponent(customer.name)}, I am interested in Royal Silk Saree`;
+    const qrcode = new QRCode(document.getElementById("qrcode"), {
+        text: wa_link,
+        width: 128,
+        height: 128
+    });
+    console.log("WhatsApp link:", wa_link);
+});
+</script>
+</body>
+</html>
