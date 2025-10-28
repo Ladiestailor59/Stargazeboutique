@@ -1,0 +1,54 @@
+
+:root{--bg:#fff4f8;--accent:#e99fb0;--muted:#6b6b6b;--card:#fff}
+*{box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+body{margin:0;background:var(--bg);color:var(--text, #222);line-height:1.4}
+.site-header{display:flex;justify-content:space-between;align-items:center;padding:18px 24px;background:linear-gradient(90deg,#fff,#fff4f8);position:sticky;top:0;z-index:50}
+.brand h1{margin:0;color:#6b2350}
+.tag{margin:2px 0 0;font-size:14px;color:var(--muted)}
+.top-nav a{margin-left:12px;color:#4a2b3b;text-decoration:none}
+.controls{display:flex;gap:8px;align-items:center;margin-left:auto}
+.hero{padding:10px 0 30px;position:relative}
+.slider{max-width:1100px;margin:0 auto;position:relative;overflow:hidden;border-radius:12px}
+.slides{display:flex;transition:transform .6s ease}
+.slide{min-width:100%;display:block}
+.slider-controls{position:absolute;top:50%;transform:translateY(-50%);width:100%;display:flex;justify-content:space-between;pointer-events:none}
+.slider-controls button{pointer-events:auto;background:rgba(255,255,255,0.8);border:0;padding:8px 10px;border-radius:6px;margin:0 12px}
+.countdown{max-width:1100px;margin:12px auto;text-align:right;padding-right:8px;color:#7a2e45}
+.products{padding:28px 18px}
+.product-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;max-width:1100px;margin:0 auto}
+.product-card{background:var(--card);padding:12px;border-radius:10px;box-shadow:0 4px 12px rgba(0,0,0,0.06)}
+.product-card .media{position:relative}
+.badge{position:absolute;left:10px;top:10px;padding:6px 8px;border-radius:6px;font-size:13px}
+.badge.new{background:var(--accent);color:#fff}
+.badge.stock{background:#ffcc80;color:#3b2a1a;top:44px}
+.badge.best{background:#ffd700;color:#3b2a1a}
+.price{font-weight:700;color:#7b2d4a}
+.sizes{font-size:13px;color:var(--muted)}
+.btn{display:inline-block;padding:8px 12px;border-radius:8px;text-decoration:none;margin-right:8px;background:#fff;border:1px solid #eee}
+.whatsapp{background:#25D366;color:#fff;border:0}
+.testimonials{padding:24px;background:linear-gradient(180deg,#fff,#fff0f6)}
+.testi-carousel{max-width:800px;margin:0 auto;text-align:center;padding:10px 16px}
+.testi{display:none}
+.testi.active{display:block}
+.faq{padding:24px}
+.accordion .acc-btn{width:100%;text-align:left;padding:12px;border-radius:6px;border:1px solid #eee;background:#fff;margin-bottom:8px;cursor:pointer}
+.acc-panel{display:none;padding:10px 12px;background:#fff;border-radius:6px;border:1px solid #f0e8e8;margin-bottom:8px}
+.newsletter{padding:20px;text-align:center}
+.newsletter input{padding:10px;border-radius:6px;border:1px solid #ddd;margin-right:8px;width:220px}
+.newsletter button{padding:10px 14px;border-radius:6px}
+.site-footer{padding:18px;background:#fff;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.whatsapp-float{position:fixed;right:18px;bottom:18px;background:#25D366;color:#fff;padding:12px 14px;border-radius:28px;text-decoration:none;box-shadow:0 6px 18px rgba(0,0,0,0.12)}
+/* Controls and modals */
+.controls select, .controls button{padding:6px 8px;border-radius:6px;border:1px solid #ddd;background:#fff}
+.modal{position:fixed;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;z-index:200}
+.modal-inner{background:#fff;padding:18px;border-radius:10px;max-width:420px;width:94%}
+.modal-inner input, .modal-inner textarea{width:100%;padding:8px;margin-bottom:8px;border-radius:6px;border:1px solid #ddd}
+.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.gallery-item{width:100%;border-radius:8px;cursor:pointer;display:block}
+.lightbox{position:fixed;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,0.85);display:flex;align-items:center;justify-content:center;z-index:300}
+.lightbox img{max-width:92%;max-height:86%;border-radius:8px}
+.lightbox button{position:absolute;right:20px;top:20px;padding:8px 12px;border-radius:6px}
+:root.light{--bg:#fff4f8;--card:#fff;--text:#222;--accent:#e99fb0}
+:root.dark{--bg:#0f0f12;--card:#121214;--text:#e8e6e9;--accent:#ff7fb0}
+body.theme-root{background:var(--bg);color:var(--text)}
+@media(max-width:700px){.site-header{flex-direction:column;align-items:flex-start}}
