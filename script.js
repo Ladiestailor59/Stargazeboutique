@@ -1,0 +1,1 @@
+document.getElementById('product-grid').innerHTML = '<p>Products will load here...</p>';
