@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gallery - Stargazeboutique</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1 class="brand">Stargazeboutique Gallery</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <h2>Gallery</h2>
+    <p>Product images and promo shots.</p>
+    <div id="galleryGrid" class="grid"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; 2025 Stargazeboutique</p>
+    </div>
+  </footer>
+
+  <script>
+    // Simple gallery loader using products.json if available
+    fetch('products.json').then(r=>r.json()).then(products=>{
+      const g=document.getElementById('galleryGrid');
+      products.forEach(p=>{
+        const d=document.createElement('div');
+        d.className='card';
+        const img=document.createElement('img');
+        img.src=p.image;
+        img.alt=p.name;
+        d.appendChild(img);
+        const h=document.createElement('h4'); h.textContent=p.name;
+        d.appendChild(h);
+        g.appendChild(d);
+      });
+    }).catch(()=>{});
+  </script>
+</body>
+</html>

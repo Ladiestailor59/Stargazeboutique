@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "name": "Elegant Evening Gown",
+    "category": "Party Wear",
+    "price": 120,
+    "image": "images/evening_gown.jpg",
+    "video": "videos/evening_gown.mp4",
+    "description": "Perfect for weddings and evening parties."
+  },
+  {
+    "id": 2,
+    "name": "Casual Kurti",
+    "category": "Casual Chic",
+    "price": 60,
+    "image": "images/casual_kurti.jpg",
+    "video": "videos/casual_kurti.mp4",
+    "description": "Comfortable and stylish for everyday wear."
+  },
+  {
+    "id": 3,
+    "name": "Festive Lehenga",
+    "category": "Festive Glam",
+    "price": 150,
+    "image": "images/festive_lehenga.jpg",
+    "video": "videos/festive_lehenga.mp4",
+    "description": "Sparkly festive collection for celebrations."
+  },
+  {
+    "id": 4,
+    "name": "Office Elegance Suit",
+    "category": "Office Elegance",
+    "price": 100,
+    "image": "images/office_suit.jpg",
+    "video": "videos/office_suit.mp4",
+    "description": "Elegant suit for professional daily wear."
+  },
+  {
+    "id": 5,
+    "name": "Trendy Street Style Jacket",
+    "category": "Street Style",
+    "price": 80,
+    "image": "images/street_jacket.jpg",
+    "video": "videos/street_jacket.mp4",
+    "description": "Urban, stylish look for streetwear lovers."
+  },
+  {
+    "id": 6,
+    "name": "Elegant Embroidered Kurta",
+    "category": "Traditional Suits",
+    "price": 90,
+    "image": "images/embroidered_kurta.jpg",
+    "video": "videos/embroidered_kurta.mp4",
+    "description": "Hand-embroidered kurta perfect for festive occasions."
+  },
+  {
+    "id": 7,
+    "name": "Festive Anarkali Suit",
+    "category": "Traditional Suits",
+    "price": 130,
+    "image": "images/anarkali_suit.jpg",
+    "video": "videos/anarkali_suit.mp4",
+    "description": "Flowing Anarkali suit with elegant detailing."
+  },
+  {
+    "id": 8,
+    "name": "Classic Salwar Kameez",
+    "category": "Traditional Suits",
+    "price": 75,
+    "image": "images/salwar_kameez.jpg",
+    "video": "videos/salwar_kameez.mp4",
+    "description": "Comfortable and stylish traditional Salwar Kameez."
+  },
+  {
+    "id": 9,
+    "name": "Designer Lehenga Set",
+    "category": "Traditional Suits",
+    "price": 160,
+    "image": "images/designer_lehenga.jpg",
+    "video": "videos/designer_lehenga.mp4",
+    "description": "Designer lehenga with matching dupatta for special events."
+  },
+  {
+    "id": 10,
+    "name": "Silk Saree Set",
+    "category": "Traditional Suits",
+    "price": 140,
+    "image": "images/silk_saree.jpg",
+    "video": "videos/silk_saree.mp4",
+    "description": "Luxurious silk saree for weddings and parties."
+  },
+  {
+    "id": 11,
+    "name": "Gift Voucher ₹500",
+    "category": "Gift Voucher",
+    "price": 500,
+    "image": "images/gift_voucher_500.jpg",
+    "video": "videos/gift_voucher_500.mp4",
+    "description": "Perfect gift for friends and family. Redeemable on any product."
+  },
+  {
+    "id": 12,
+    "name": "Gift Voucher ₹1000",
+    "category": "Gift Voucher",
+    "price": 1000,
+    "image": "images/gift_voucher_1000.jpg",
+    "video": "videos/gift_voucher_1000.mp4",
+    "description": "Premium gift voucher for any occasion."
+  },
+  {
+    "id": 13,
+    "name": "Festive Combo Offer",
+    "category": "Offers",
+    "price": 200,
+    "image": "images/festive_offer.jpg",
+    "video": "videos/festive_offer.mp4",
+    "description": "Buy 2 traditional suits and get ₹200 off!"
+  },
+  {
+    "id": 14,
+    "name": "Weekend Flash Sale",
+    "category": "Offers",
+    "price": 0,
+    "image": "images/flash_sale.jpg",
+    "video": "videos/flash_sale.mp4",
+    "description": "Flat 20% off on selected products this weekend."
+  }
+]

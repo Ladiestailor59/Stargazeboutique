@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://garments.work.gd/sitemap.xml
