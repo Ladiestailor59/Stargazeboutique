@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "name": "Product 1",
+        "price_AED": 125,
+        "price_INR": 2750,
+        "discount": "6%",
+        "tags": [
+            "New Arrival"
+        ],
+        "description": "This is Product 1 description.",
+        "policy": "No Exchange / No Return"
+    },
+    {
+        "id": 2,
+        "name": "Product 2",
+        "price_AED": 130,
+        "price_INR": 2860,
+        "discount": "7%",
+        "tags": [
+            "Festival Offer"
+        ],
+        "description": "This is Product 2 description.",
+        "policy": "No Exchange / No Return"
+    },
+    {
+        "id": 3,
+        "name": "Product 3",
+        "price_AED": 135,
+        "price_INR": 2970,
+        "discount": "8%",
+        "tags": [
+            "New Arrival"
+        ],
+        "description": "This is Product 3 description.",
+        "policy": "No Exchange / No Return"
+    },
+    {
+        "id": 4,
+        "name": "Product 4",
+        "price_AED": 140,
+        "price_INR": 3080,
+        "discount": "9%",
+        "tags": [
+            "Festival Offer"
+        ],
+        "description": "This is Product 4 description.",
+        "policy": "No Exchange / No Return"
+    },
+    {
+        "id": 5,
+        "name": "Product 5",
+        "price_AED": 145,
+        "price_INR": 3190,
+        "discount": "10%",
+        "tags": [
+            "New Arrival"
+        ],
+        "description": "This is Product 5 description.",
+        "policy": "No Exchange / No Return"
+    },
+    {
+        "id": 6,
+        "name": "Product 6",
+        "price_AED": 150,
+        "price_INR": 3300,
+        "discount": "11%",
+        "tags": [
+            "Festival Offer"
+        ],
+        "description": "This is Product 6 description.",
+        "policy": "No Exchange / No Return"
+    },
+    {
+        "id": 7,
+        "name": "Product 7",
+        "price_AED": 155,
+        "price_INR": 3410,
+        "discount": "12%",
+        "tags": [
+            "New Arrival"
+        ],
+        "description": "This is Product 7 description.",
+        "policy": "No Exchange / No Return"
+    },
+    {
+        "id": 8,
+        "name": "Product 8",
+        "price_AED": 160,
+        "price_INR": 3520,
+        "discount": "13%",
+        "tags": [
+            "Festival Offer"
+        ],
+        "description": "This is Product 8 description.",
+        "policy": "No Exchange / No Return"
+    },
+    {
+        "id": 9,
+        "name": "Product 9",
+        "price_AED": 165,
+        "price_INR": 3630,
+        "discount": "14%",
+        "tags": [
+            "New Arrival"
+        ],
+        "description": "This is Product 9 description.",
+        "policy": "No Exchange / No Return"
+    },
+    {
+        "id": 10,
+        "name": "Product 10",
+        "price_AED": 170,
+        "price_INR": 3740,
+        "discount": "15%",
+        "tags": [
+            "Festival Offer"
+        ],
+        "description": "This is Product 10 description.",
+        "policy": "No Exchange / No Return"
+    },
+    {
+        "id": 11,
+        "name": "Product 11",
+        "price_AED": 175,
+        "price_INR": 3850,
+        "discount": "16%",
+        "tags": [
+            "New Arrival"
+        ],
+        "description": "This is Product 11 description.",
+        "policy": "No Exchange / No Return"
+    },
+    {
+        "id": 12,
+        "name": "Product 12",
+        "price_AED": 180,
+        "price_INR": 3960,
+        "discount": "17%",
+        "tags": [
+            "Festival Offer"
+        ],
+        "description": "This is Product 12 description.",
+        "policy": "No Exchange / No Return"
+    },
+    {
+        "id": 13,
+        "name": "Product 13",
+        "price_AED": 185,
+        "price_INR": 4070,
+        "discount": "18%",
+        "tags": [
+            "New Arrival"
+        ],
+        "description": "This is Product 13 description.",
+        "policy": "No Exchange / No Return"
+    },
+    {
+        "id": 14,
+        "name": "Product 14",
+        "price_AED": 190,
+        "price_INR": 4180,
+        "discount": "19%",
+        "tags": [
+            "Festival Offer"
+        ],
+        "description": "This is Product 14 description.",
+        "policy": "No Exchange / No Return"
+    },
+    {
+        "id": 15,
+        "name": "Product 15",
+        "price_AED": 195,
+        "price_INR": 4290,
+        "discount": "20%",
+        "tags": [
+            "New Arrival"
+        ],
+        "description": "This is Product 15 description.",
+        "policy": "No Exchange / No Return"
+    },
+    {
+        "id": 16,
+        "name": "Product 16",
+        "price_AED": 200,
+        "price_INR": 4400,
+        "discount": "21%",
+        "tags": [
+            "Festival Offer"
+        ],
+        "description": "This is Product 16 description.",
+        "policy": "No Exchange / No Return"
+    },
+    {
+        "id": 17,
+        "name": "Product 17",
+        "price_AED": 205,
+        "price_INR": 4510,
+        "discount": "22%",
+        "tags": [
+            "New Arrival"
+        ],
+        "description": "This is Product 17 description.",
+        "policy": "No Exchange / No Return"
+    },
+    {
+        "id": 18,
+        "name": "Product 18",
+        "price_AED": 210,
+        "price_INR": 4620,
+        "discount": "23%",
+        "tags": [
+            "Festival Offer"
+        ],
+        "description": "This is Product 18 description.",
+        "policy": "No Exchange / No Return"
+    },
+    {
+        "id": 19,
+        "name": "Product 19",
+        "price_AED": 215,
+        "price_INR": 4730,
+        "discount": "24%",
+        "tags": [
+            "New Arrival"
+        ],
+        "description": "This is Product 19 description.",
+        "policy": "No Exchange / No Return"
+    },
+    {
+        "id": 20,
+        "name": "Product 20",
+        "price_AED": 220,
+        "price_INR": 4840,
+        "discount": "25%",
+        "tags": [
+            "Festival Offer"
+        ],
+        "description": "This is Product 20 description.",
+        "policy": "No Exchange / No Return"
+    }
+]
