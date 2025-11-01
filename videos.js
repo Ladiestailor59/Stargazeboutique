@@ -1,1 +1,0 @@
-document.getElementById('video-grid').innerHTML = '<p>Videos will load here...</p>';
