@@ -1,1 +1,0 @@
-document.getElementById('gallery').innerHTML = '<p>Gallery images will load here...</p>';
